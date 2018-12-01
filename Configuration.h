@@ -69,9 +69,9 @@
 #define MIXING_EXTRUDER 0
 
 #define DRIVE_SYSTEM 3
-#define XAXIS_STEPS_PER_MM 1600 // 16 microsteps * 200 steps per cycle / 2 mm per cycle
-#define YAXIS_STEPS_PER_MM 1600
-#define ZAXIS_STEPS_PER_MM 1600
+#define XAXIS_STEPS_PER_MM 400 // 16 microsteps * 200 steps per cycle / 2 mm per cycle
+#define YAXIS_STEPS_PER_MM 400
+#define ZAXIS_STEPS_PER_MM 400
 #define EXTRUDER_FAN_COOL_TEMP 50
 #define PDM_FOR_EXTRUDER 0
 #define PDM_FOR_COOLER 0
@@ -395,15 +395,15 @@ It also can add a delay to wait for spindle to run on full speed.
 #define DELTASEGMENTS_PER_PRINTLINE 24
 #define STEPPER_INACTIVE_TIME 360L
 #define MAX_INACTIVE_TIME 0L
-#define MAX_FEEDRATE_X 100
-#define MAX_FEEDRATE_Y 100
-#define MAX_FEEDRATE_Z 100
-#define HOMING_FEEDRATE_X 100
-#define HOMING_FEEDRATE_Y 100
-#define HOMING_FEEDRATE_Z 100
+#define MAX_FEEDRATE_X 30
+#define MAX_FEEDRATE_Y 30
+#define MAX_FEEDRATE_Z 30
+#define HOMING_FEEDRATE_X 30
+#define HOMING_FEEDRATE_Y 30
+#define HOMING_FEEDRATE_Z 30
 #define HOMING_ORDER HOME_ORDER_ZXY
 #define ZHOME_PRE_RAISE 0
-#define ZHOME_PRE_RAISE_DISTANCE 10
+#define ZHOME_PRE_RAISE_DISTANCE 0
 #define RAISE_Z_ON_TOOLCHANGE 0
 #define ZHOME_MIN_TEMPERATURE 0
 #define ZHOME_HEAT_ALL 1
